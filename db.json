@@ -1,0 +1,104 @@
+{
+  "sample_foods": [
+    {
+      "id": 1,
+      "name": "ButterScotch CupCake",
+      "price": 30,
+      "favorite": false,
+      "imageUrl": "assets/images/BD.png",
+      "tags": [
+        "Essence"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nuttela CupCake",
+      "price": 20,
+      "favorite": false,
+      "imageUrl": "assets/images/Nut.png",
+      "tags": [
+        "Chocolate"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Strawberry CupCake",
+      "price": 40,
+      "favorite": false,
+      "imageUrl": "assets/images/Stra.png",
+      "tags": [
+        "FruitFlavour"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pista CupCake",
+      "price": 50,
+      "favorite": false,
+      "imageUrl": "assets/images/Pista.png",
+      "tags": [
+        "Essence"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Gulabjab CupCake",
+      "price": 30,
+      "favorite": false,
+      "imageUrl": "assets/images/Gul.png",
+      "tags": [
+        "SweetFlavour"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chocolate CupCake",
+      "price": 80,
+      "favorite": false,
+      "imageUrl": "assets/images/Cho.png",
+      "tags": [
+        "Chocolate"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mango CupCake",
+      "price": 60,
+      "favorite": false,
+      "imageUrl": "assets/images/Man.png",
+      "tags": [
+        "FruitFlavour"
+      ]
+    }
+  ],
+  "Newusers": [
+    {
+      "fullname": "Pallavi",
+      "email": "pallavikurmala@gmail.com",
+      "password": "Pallavi@123",
+      "mobile": 9948602778,
+      "id": 1
+    },
+    {
+      "fullname": "Karthika",
+      "email": "karthika@gmail.com",
+      "password": "123456",
+      "mobile": 12345678,
+      "id": 2
+    },
+    {
+      "fullname": "Suma",
+      "email": "Suma@gmail.com",
+      "password": "123456",
+      "mobile": "",
+      "id": 3
+    },
+    {
+      "fullname": "Subramanyam",
+      "email": "Subramanyam@gmail.com",
+      "password": "123456",
+      "mobile": 3242353453453,
+      "id": 4
+    }
+  ]
+}

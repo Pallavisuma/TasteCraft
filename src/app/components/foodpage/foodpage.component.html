@@ -1,0 +1,17 @@
+<div class="container">
+    <img [src]="food.imageUrl" alt="Food Image">
+</div>
+<div class="details">
+    <div class="header">
+        <span class="name">
+            {{food.name}}
+        </span>
+    </div>
+    <div class="price">
+        {{food.price|currency}}
+     </div>
+     <div class="tag">
+        <app-tag [foodpagetags]="food.tags"> </app-tag>
+    </div>
+    
+</div>

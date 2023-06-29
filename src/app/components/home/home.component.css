@@ -1,0 +1,45 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type:none ;
+    padding: 0;
+}
+ul li a{
+    height : 15rem;
+    width:15rem;
+    
+    border :2px solid rgb(32, 28, 28);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5); 
+    border-radius: 30px;
+    margin: 100px;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.item{
+    border-radius: 20px;
+    height:168px;
+    border: 1px solid #f1e8e8;
+    
+}
+.content{
+    padding: .5rem 1rem;
+    position :relative;
+}
+.price{
+    color: rgb(59, 158, 59)
+}
+.name{
+    color: rgb(114, 108, 108);
+}
+button{
+    margin-left: 2rem;
+    font-size: small;
+    border-radius: 20px;
+    background-color:  rgb(180, 178, 176);
+    color: aliceblue;
+    border: none;
+}

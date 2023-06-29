@@ -1,0 +1,22 @@
+<!-- cart.component.html -->
+<ul>
+  <li *ngFor="let cartItem of cart.items">
+    <img [src]="cartItem.food?.imageUrl" alt="Food Image" />
+    <p>{{ cartItem.food?.name }}</p>
+    <p>{{ cartItem.quantity }}</p>
+    <p>{{ cartItem.price }}</p>
+    <button (click)="removeFromCart(cartItem)" *ngIf="cartItem.food && cartItem.food.id">
+      Remove
+    </button>
+    <input type="number" [(ngModel)]="cartItem.quantity" (change)="changeQuantity(cartItem, $event)" min="1" />
+  </li>
+</ul>
+
+<div class="checkout">
+  <div>
+    <div class="foods-count">{{cart.totalCount}}</div>
+    <div class="total-price">{{cart.totalPrice|currency}}</div>
+  </div>
+ 
+  <a routerLink="/checkout">Proceed to Checkout</a>
+</div>
